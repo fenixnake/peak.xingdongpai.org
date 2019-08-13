@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway:300,400,900');
 
 /* Header */
+
 .cooerson-header {
     position: fixed;
     display: block;
     width: 96%;
-    width: calc( 100% - 32px );
+    width: calc( 100% - 32px);
     height: 40px;
     margin: 0 auto;
     color: #3498db;
     text-align: center;
-    top: 16px; right: 16px; left: 16px;
+    top: 16px;
+    right: 16px;
+    left: 16px;
     z-index: 1000;
 }
 
 .cooerson-header .cooerson-links .cooerson-icon-back {
     position: absolute;
     display: block;
-    width: 24px;
+    width: 66px;
     height: 24px;
     padding: 7px;
-    color: rgba(255, 255, 255,0.75);
-    font-size: 32px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
     line-height: 34px;
     font-weight: 900;
     font-family: 'Raleway', sans-serif;
@@ -43,21 +46,21 @@
     top: 7px;
     left: 20px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255,.35);
+    background-color: rgba(255, 255, 255, .35);
 }
 
 .cooerson-header .cooerson-links .cooerson-icon-back:hover {
-    color: rgba(255, 255, 255,1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .cooerson-header .cooerson-links .cooerson-icon-github {
     position: absolute;
     display: block;
-    width: 24px;
+    width: 44px;
     height: 24px;
     padding: 7px;
-    color: rgba(255, 255, 255,0.75);
-    font-size: 32px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
     line-height: 34px;
     font-weight: 900;
     font-family: 'Raleway', sans-serif;
@@ -79,25 +82,25 @@
     top: 7px;
     right: 5px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255,.35);
+    background-color: rgba(255, 255, 255, .35);
 }
 
 .cooerson-header .cooerson-links .cooerson-icon-github:hover {
-    color: rgba(255, 255, 255,1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .cooerson-header .cooerson-links .cooerson-header {
     font-family: 'Raleway', sans-serif;
     display: inline-block;
-	font-size: 14px;
-	font-weight: 300;
-	margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
     padding: 17px 0;
     z-index: 1;
 }
 
 @media screen and (max-width: 360px) {
     .cooerson-header .cooerson-links .cooerson-header {
-        font-size: 12px; 
+        font-size: 12px;
     }
 }
