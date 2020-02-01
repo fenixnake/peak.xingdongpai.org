@@ -2,7 +2,7 @@
 server {
     listen    80;
     listen    [::]:80;
-    server_name kunlun.xingdongpai.com www.kunlun.xingdongpai.com;
+    server_name kunlun.xingdongpai.com;
 
     limit_conn ops 50;
 
@@ -13,7 +13,7 @@ server {
 server {
     listen 443 ssl http2;
     listen [::]:443 ssl http2;
-    server_name kunlun.xingdongpai.com www.kunlun.xingdongpai.com;
+    server_name kunlun.xingdongpai.com;
 
     pagespeed on;
 
@@ -151,7 +151,7 @@ server {
     }
     #缓存html页面
     location ~* .*\.(html|htm)$ {
-          proxy_pass http://127.0.0.1:5555;
+          proxy_pass http://127.0.0.1:5556;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -171,7 +171,7 @@ server {
     #------资源缓存设置，除了open目录下的，都需要防盗链-----------
     location ^~ /assets/open/ {
 		  # 匹配任何以 /open/ 开头的地址，匹配符合以后，停止往下搜索正则，采用这一条
-		  proxy_pass http://127.0.0.1:5555;
+		  proxy_pass http://127.0.0.1:5556;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -195,7 +195,7 @@ server {
               return 444;
           }
           #---资源防盗链 end---
-          proxy_pass http://127.0.0.1:5555;
+          proxy_pass http://127.0.0.1:5556;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -221,7 +221,7 @@ server {
               return 444;
           }
           #---资源防盗链 end---
-          proxy_pass http://127.0.0.1:5555;
+          proxy_pass http://127.0.0.1:5556;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -240,7 +240,7 @@ server {
       #------资源缓存设置 end-----------
       #动态页面直接放过不缓存
       location ~ .*\.(php)(.*){
-           proxy_pass http://127.0.0.1:5555;
+           proxy_pass http://127.0.0.1:5556;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -248,7 +248,7 @@ server {
       }
       #设置缓存黑名单，不缓存指定页面，比如wp后台或其他需要登录态的页面，用分隔符隔开
       location ~ ^/(wp-admin|system)(.*)$ {
-           proxy_pass http://127.0.0.1:5555;
+           proxy_pass http://127.0.0.1:5556;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -256,14 +256,14 @@ server {
       }
       #不缓存以斜杠结尾的页面
       location ~ ^(.*)/$ {
-           proxy_pass http://127.0.0.1:5555;
+           proxy_pass http://127.0.0.1:5556;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
            add_header Cache-Control no-store; 
      }
      location / {
-           proxy_pass http://127.0.0.1:5555;
+           proxy_pass http://127.0.0.1:5556;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -271,9 +271,9 @@ server {
 }
 
 server {
-    listen 127.0.0.1:5555;
+    listen 127.0.0.1:5556;
 
-    server_name kunlun.xingdongpai.com www.www.kunlun.xingdongpai.com;
+    server_name kunlun.xingdongpai.com;
 
     add_header Access-Control-Allow-Origin *;
     root /kunlun/public/;
