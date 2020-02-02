@@ -151,7 +151,7 @@ server {
     }
     #缓存html页面
     location ~* .*\.(html|htm)$ {
-          proxy_pass http://127.0.0.1:5556;
+          proxy_pass http://127.0.0.1:5521;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -170,8 +170,8 @@ server {
     }
     #------资源缓存设置，除了open目录下的，都需要防盗链-----------
     location ^~ /assets/open/ {
-		  # 匹配任何以 /open/ 开头的地址，匹配符合以后，停止往下搜索正则，采用这一条
-		  proxy_pass http://127.0.0.1:5556;
+      # 匹配任何以 /open/ 开头的地址，匹配符合以后，停止往下搜索正则，采用这一条
+      proxy_pass http://127.0.0.1:5521;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -186,16 +186,16 @@ server {
           proxy_ignore_headers "Cache-Control" "Expires" "Set-Cookie";
           add_header Nginx-Cache "$upstream_cache_status";
           add_header Cache-Control public;
-	  }
+    }
     location ~* .(gif|jpeg|jpg|png|webp|svg|css|js|mp4|webm|ogg|mov)$ {
           #---资源防盗链---
-          valid_referers server_names *.xingdongpai.com xingdongpai.com *.ibis.love ibis.love *.reqing.org reqing.org *.niaobi.org niaobi.org *.xingdongpai.org xingdongpai.org *.niaobi.net niaobi.net ~\.google\. ~\.yahoo\. ~\.baidu\.;                
+          valid_referers server_names *.xingdongpai.com xingdongpai.com *.reqing.org reqing.org *.niaobi.org niaobi.org *.xingdongpai.org xingdongpai.org *.niaobi.net niaobi.net ~\.google\. ~\.yahoo\. ~\.baidu\.;                
           
           if ($invalid_referer) {
               return 444;
           }
           #---资源防盗链 end---
-          proxy_pass http://127.0.0.1:5556;
+          proxy_pass http://127.0.0.1:5521;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -215,13 +215,13 @@ server {
       #location ~* .*\.(eot|ttf|otf|woff|txt|pdf)(.*) {
       location ~* .(eot|ttf|otf|woff|woff2|txt|pdf)$ {
           #---资源防盗链---
-          valid_referers server_names *.xingdongpai.com xingdongpai.com *.ibis.love ibis.love *.reqing.org reqing.org *.niaobi.org niaobi.org *.xingdongpai.org xingdongpai.org *.niaobi.net niaobi.net ~\.google\. ~\.yahoo\. ~\.baidu\.;                      
+          valid_referers server_names *.xingdongpai.com xingdongpai.com *.reqing.org reqing.org *.niaobi.org niaobi.org *.xingdongpai.org xingdongpai.org *.niaobi.net niaobi.net ~\.google\. ~\.yahoo\. ~\.baidu\.;                      
           
           if ($invalid_referer) {
               return 444;
           }
           #---资源防盗链 end---
-          proxy_pass http://127.0.0.1:5556;
+          proxy_pass http://127.0.0.1:5521;
           proxy_cache_key $host$uri$is_args$args;
           proxy_redirect off;
           proxy_set_header Host $host;
@@ -240,7 +240,7 @@ server {
       #------资源缓存设置 end-----------
       #动态页面直接放过不缓存
       location ~ .*\.(php)(.*){
-           proxy_pass http://127.0.0.1:5556;
+           proxy_pass http://127.0.0.1:5521;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -248,7 +248,7 @@ server {
       }
       #设置缓存黑名单，不缓存指定页面，比如wp后台或其他需要登录态的页面，用分隔符隔开
       location ~ ^/(wp-admin|system)(.*)$ {
-           proxy_pass http://127.0.0.1:5556;
+           proxy_pass http://127.0.0.1:5521;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -256,14 +256,14 @@ server {
       }
       #不缓存以斜杠结尾的页面
       location ~ ^(.*)/$ {
-           proxy_pass http://127.0.0.1:5556;
+           proxy_pass http://127.0.0.1:5521;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
            add_header Cache-Control no-store; 
      }
      location / {
-           proxy_pass http://127.0.0.1:5556;
+           proxy_pass http://127.0.0.1:5521;
            proxy_set_header        Host $host;
            proxy_set_header        X-Real-IP $remote_addr;
            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -271,7 +271,7 @@ server {
 }
 
 server {
-    listen 127.0.0.1:5556;
+    listen 127.0.0.1:5521;
 
     server_name kunlun.xingdongpai.com;
 

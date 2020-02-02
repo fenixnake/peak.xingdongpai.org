@@ -2891,32 +2891,32 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 @font-face {
     font-family: Circe;
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Light.eot");
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Light-.eot#iefix") format("embedded-opentype"), url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Light.woff") format("woff"), url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Light.ttf") format("truetype");
+    src: url("/assets/fonts/circe/Circe-Light.eot");
+    src: url("/assets/fonts/circe/Circe-Light-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/circe/Circe-Light.woff") format("woff"), url("/assets/fonts/circe/Circe-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: Circe;
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Regular.eot");
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Regular-.eot#iefix") format("embedded-opentype"), url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Regular.woff") format("woff"), url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/circe/Circe-Regular.eot");
+    src: url("/assets/fonts/circe/Circe-Regular-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/circe/Circe-Regular.woff") format("woff"), url("/assets/fonts/circe/Circe-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Circe;
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Bold.eot");
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Bold-.eot#iefix") format("embedded-opentype"), url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Bold.woff") format("woff"), url("https://xingdongpai.com/kunlun/assets/fonts/circe/Circe-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/circe/Circe-Bold.eot");
+    src: url("/assets/fonts/circe/Circe-Bold-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/circe/Circe-Bold.woff") format("woff"), url("/assets/fonts/circe/Circe-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: 'DIN Condensed';
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/din/DINCondensed-Bold.eot");
-    src: url("https://xingdongpai.com/kunlun/assets/fonts/din/DINCondensed-Bold-.eot#iefix") format("embedded-opentype"), url("https://xingdongpai.com/kunlun/assets/fonts/din/DINCondensed-Bold.woff") format("woff"), url("https://xingdongpai.com/kunlun/assets/fonts/din/DINCondensed-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/din/DINCondensed-Bold.eot");
+    src: url("/assets/fonts/din/DINCondensed-Bold-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/din/DINCondensed-Bold.woff") format("woff"), url("/assets/fonts/din/DINCondensed-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal
 }
@@ -5298,7 +5298,7 @@ body[data-aos-easing=outexpo] [data-aos] {
 
 .cb-sprite {
     display: inline-block;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/sprites/sprites.png");
+    background-image: url("/assets/img/sprites/sprites.png");
     background-repeat: no-repeat
 }
 
@@ -5318,7 +5318,7 @@ body[data-aos-easing=outexpo] [data-aos] {
 (-o-min-device-pixel-ratio:2/1),
 (min-resolution:192dpi) {
     .cb-sprite {
-        background-image: url("https://xingdongpai.com/kunlun/assets/img/sprites/sprites@2x.png");
+        background-image: url("/assets/img/sprites/sprites@2x.png");
         -webkit-background-size: 83px 35px;
         -moz-background-size: 83px 35px;
         background-size: 83px 35px
@@ -11402,7 +11402,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     height: 320px;
     top: 0;
     right: -85px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/about/awards.png");
+    background-image: url("/assets/img/about/awards.png");
     background-repeat: no-repeat;
     -webkit-background-size: 320px 320px;
     -moz-background-size: 320px 320px;
@@ -15049,7 +15049,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 442px;
     width: 339px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/ewa/stickers/top.png");
+    background-image: url("/assets/img/ewa/stickers/top.png");
     -webkit-background-size: 339px 442px;
     -moz-background-size: 339px 442px;
     background-size: 339px 442px;
@@ -15099,7 +15099,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     height: 376.5px;
     width: 337.5px;
     max-width: 100%;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/ewa/stickers/bottom.png");
+    background-image: url("/assets/img/ewa/stickers/bottom.png");
     -webkit-background-size: 337.5px 376.5px;
     -moz-background-size: 337.5px 376.5px;
     background-size: 337.5px 376.5px;
@@ -15133,7 +15133,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 197.25px;
     width: 136.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/tawseel/stickers/top.png");
+    background-image: url("/assets/img/tawseel/stickers/top.png");
     -webkit-background-size: 136.5px 197.25px;
     -moz-background-size: 136.5px 197.25px;
     background-size: 136.5px 197.25px
@@ -15174,7 +15174,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     left: 0;
     height: 263px;
     width: 182px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/tawseel/stickers/bottom.png");
+    background-image: url("/assets/img/tawseel/stickers/bottom.png");
     -webkit-background-size: 182px 263px;
     -moz-background-size: 182px 263px;
     background-size: 182px 263px
@@ -15217,7 +15217,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 216px;
     width: 151px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/taglr/stickers/top.png");
+    background-image: url("/assets/img/taglr/stickers/top.png");
     -webkit-background-size: 151px 216px;
     -moz-background-size: 151px 216px;
     background-size: 151px 216px;
@@ -15247,7 +15247,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: 18%;
     height: 296.5px;
     width: 648px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/taglr/stickers/bottom.png");
+    background-image: url("/assets/img/taglr/stickers/bottom.png");
     -webkit-background-size: 648px 296.5px;
     -moz-background-size: 648px 296.5px;
     background-size: 648px 296.5px;
@@ -15289,7 +15289,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     height: 296.5px;
     max-width: 648px;
     width: 100%;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/taglr/stickers/bottom.png");
+    background-image: url("/assets/img/taglr/stickers/bottom.png");
     -webkit-background-size: 648px 296.5px;
     -moz-background-size: 648px 296.5px;
     background-size: 648px 296.5px;
@@ -15325,7 +15325,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 196px;
     width: 186px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/colorfly/stickers/top.png");
+    background-image: url("/assets/img/colorfly/stickers/top.png");
     -webkit-background-size: 186px 196px;
     -moz-background-size: 186px 196px;
     background-size: 186px 196px;
@@ -15370,7 +15370,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     left: 0;
     height: 246.66667px;
     width: 172.66667px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/colorfly/stickers/bottom.png");
+    background-image: url("/assets/img/colorfly/stickers/bottom.png");
     -webkit-background-size: 172.66667px 246.66667px;
     -moz-background-size: 172.66667px 246.66667px;
     background-size: 172.66667px 246.66667px;
@@ -15415,7 +15415,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 150.71429px;
     width: 283.21429px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/whsd/stickers/top.png");
+    background-image: url("/assets/img/whsd/stickers/top.png");
     -webkit-background-size: 283.21429px 150.71429px;
     -moz-background-size: 283.21429px 150.71429px;
     background-size: 283.21429px 150.71429px;
@@ -15460,7 +15460,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     left: 0;
     height: 96.33333px;
     width: 204.66667px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/whsd/stickers/bottom.png");
+    background-image: url("/assets/img/whsd/stickers/bottom.png");
     -webkit-background-size: 204.66667px 96.33333px;
     -moz-background-size: 204.66667px 96.33333px;
     background-size: 204.66667px 96.33333px;
@@ -15506,7 +15506,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 216.42857px;
     width: 212.14286px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/bluee/stickers/top.png");
+    background-image: url("/assets/img/bluee/stickers/top.png");
     -webkit-background-size: 212.14286px 216.42857px;
     -moz-background-size: 212.14286px 216.42857px;
     background-size: 212.14286px 216.42857px;
@@ -15550,7 +15550,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     left: 0;
     height: 162.66667px;
     width: 124.66667px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/bluee/stickers/bottom.png");
+    background-image: url("/assets/img/bluee/stickers/bottom.png");
     -webkit-background-size: 124.66667px 162.66667px;
     -moz-background-size: 124.66667px 162.66667px;
     background-size: 124.66667px 162.66667px;
@@ -15594,7 +15594,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 309.33333px;
     width: 173px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/ritmer/stickers/top.png");
+    background-image: url("/assets/img/ritmer/stickers/top.png");
     -webkit-background-size: 173px 309.33333px;
     -moz-background-size: 173px 309.33333px;
     background-size: 173px 309.33333px;
@@ -15629,7 +15629,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: 3%;
     height: 203.33333px;
     width: 183.33333px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/ritmer/stickers/bottom.png");
+    background-image: url("/assets/img/ritmer/stickers/bottom.png");
     -webkit-background-size: 183.33333px 203.33333px;
     -moz-background-size: 183.33333px 203.33333px;
     background-size: 183.33333px 203.33333px;
@@ -15674,7 +15674,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 450.66667px;
     width: 370.33333px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/sportscool/stickers/top.png");
+    background-image: url("/assets/img/sportscool/stickers/top.png");
     -webkit-background-size: 370.33333px 450.66667px;
     -moz-background-size: 370.33333px 450.66667px;
     background-size: 370.33333px 450.66667px;
@@ -15710,7 +15710,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: 3%;
     height: 185.33333px;
     width: 176.66667px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/sportscool/stickers/bottom.png");
+    background-image: url("/assets/img/sportscool/stickers/bottom.png");
     -webkit-background-size: 176.66667px 185.33333px;
     -moz-background-size: 176.66667px 185.33333px;
     background-size: 176.66667px 185.33333px;
@@ -15743,7 +15743,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 276px;
     width: 239px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/snippet/stickers/top.png");
+    background-image: url("/assets/img/snippet/stickers/top.png");
     -webkit-background-size: 239px 276px;
     -moz-background-size: 239px 276px;
     background-size: 239px 276px;
@@ -15791,7 +15791,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -2%;
     height: 342px;
     width: 208px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/snippet/stickers/bottom.png");
+    background-image: url("/assets/img/snippet/stickers/bottom.png");
     -webkit-background-size: 208px 342px;
     -moz-background-size: 208px 342px;
     background-size: 208px 342px;
@@ -15831,7 +15831,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: 30px;
     height: 243.5px;
     width: 162px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/snippet/stickers/right.png");
+    background-image: url("/assets/img/snippet/stickers/right.png");
     -webkit-background-size: 162px 243.5px;
     -moz-background-size: 162px 243.5px;
     background-size: 162px 243.5px
@@ -15852,7 +15852,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 337px;
     width: 307.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/albert/stickers/top.png");
+    background-image: url("/assets/img/albert/stickers/top.png");
     -webkit-background-size: 307.5px 337px;
     -moz-background-size: 307.5px 337px;
     background-size: 307.5px 337px;
@@ -15900,7 +15900,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -2%;
     height: 342px;
     width: 309px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/albert/stickers/bottom.png");
+    background-image: url("/assets/img/albert/stickers/bottom.png");
     -webkit-background-size: 309px 342px;
     -moz-background-size: 309px 342px;
     background-size: 309px 342px;
@@ -15940,7 +15940,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 351px;
     width: 373.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/appcity/stickers/top.png");
+    background-image: url("/assets/img/appcity/stickers/top.png");
     -webkit-background-size: 373.5px 351px;
     -moz-background-size: 373.5px 351px;
     background-size: 373.5px 351px;
@@ -15989,7 +15989,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -4%;
     height: 387.5px;
     width: 350px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/appcity/stickers/bottom.png");
+    background-image: url("/assets/img/appcity/stickers/bottom.png");
     -webkit-background-size: 350px 387.5px;
     -moz-background-size: 350px 387.5px;
     background-size: 350px 387.5px;
@@ -16030,7 +16030,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 241.5px;
     width: 270px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/industry/stickers/top.png");
+    background-image: url("/assets/img/industry/stickers/top.png");
     -webkit-background-size: 270px 241.5px;
     -moz-background-size: 270px 241.5px;
     background-size: 270px 241.5px;
@@ -16074,7 +16074,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -4%;
     height: 210.5px;
     width: 389px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/industry/stickers/bottom.png");
+    background-image: url("/assets/img/industry/stickers/bottom.png");
     -webkit-background-size: 389px 210.5px;
     -moz-background-size: 389px 210.5px;
     background-size: 389px 210.5px;
@@ -16118,7 +16118,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 379px;
     width: 307.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/skylovers/stickers/top.png");
+    background-image: url("/assets/img/skylovers/stickers/top.png");
     -webkit-background-size: 307.5px 379px;
     -moz-background-size: 307.5px 379px;
     background-size: 307.5px 379px;
@@ -16163,7 +16163,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -4%;
     height: 446px;
     width: 196px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/skylovers/stickers/bottom.png");
+    background-image: url("/assets/img/skylovers/stickers/bottom.png");
     -webkit-background-size: 196px 446px;
     -moz-background-size: 196px 446px;
     background-size: 196px 446px;
@@ -16206,7 +16206,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 328px;
     width: 423.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/borough/stickers/top.png");
+    background-image: url("/assets/img/borough/stickers/top.png");
     -webkit-background-size: 423.5px 328px;
     -moz-background-size: 423.5px 328px;
     background-size: 423.5px 328px;
@@ -16249,7 +16249,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -4%;
     height: 364.5px;
     width: 358px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/borough/stickers/bottom.png");
+    background-image: url("/assets/img/borough/stickers/bottom.png");
     -webkit-background-size: 358px 364.5px;
     -moz-background-size: 358px 364.5px;
     background-size: 358px 364.5px;
@@ -16293,7 +16293,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 263px;
     width: 236.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/domopult/stickers/top.png");
+    background-image: url("/assets/img/domopult/stickers/top.png");
     -webkit-background-size: 236.5px 263px;
     -moz-background-size: 236.5px 263px;
     background-size: 236.5px 263px;
@@ -16336,7 +16336,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -2%;
     height: 229.5px;
     width: 213.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/domopult/stickers/bottom.png");
+    background-image: url("/assets/img/domopult/stickers/bottom.png");
     -webkit-background-size: 213.5px 229.5px;
     -moz-background-size: 213.5px 229.5px;
     background-size: 213.5px 229.5px;
@@ -16379,7 +16379,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     right: 0;
     height: 310.5px;
     width: 254.5px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/sxodim/stickers/top.png");
+    background-image: url("/assets/img/sxodim/stickers/top.png");
     -webkit-background-size: 254.5px 310.5px;
     -moz-background-size: 254.5px 310.5px;
     background-size: 254.5px 310.5px;
@@ -16422,7 +16422,7 @@ body[data-aos-easing=outexpo] [data-aos] {
     bottom: -5%;
     height: 367.5px;
     width: 306px;
-    background-image: url("https://xingdongpai.com/kunlun/assets/img/sxodim/stickers/bottom.png");
+    background-image: url("/assets/img/sxodim/stickers/bottom.png");
     -webkit-background-size: 306px 367.5px;
     -moz-background-size: 306px 367.5px;
     background-size: 306px 367.5px;
