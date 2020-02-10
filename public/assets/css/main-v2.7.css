@@ -2889,38 +2889,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     border-color: #5897fb
 }
 
-@font-face {
-    font-family: Circe;
-    src: url("/assets/fonts/circe/Circe-Light.eot");
-    src: url("/assets/fonts/circe/Circe-Light-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/circe/Circe-Light.woff") format("woff"), url("/assets/fonts/circe/Circe-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Circe;
-    src: url("/assets/fonts/circe/Circe-Regular.eot");
-    src: url("/assets/fonts/circe/Circe-Regular-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/circe/Circe-Regular.woff") format("woff"), url("/assets/fonts/circe/Circe-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Circe;
-    src: url("/assets/fonts/circe/Circe-Bold.eot");
-    src: url("/assets/fonts/circe/Circe-Bold-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/circe/Circe-Bold.woff") format("woff"), url("/assets/fonts/circe/Circe-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'DIN Condensed';
-    src: url("/assets/fonts/din/DINCondensed-Bold.eot");
-    src: url("/assets/fonts/din/DINCondensed-Bold-.eot#iefix") format("embedded-opentype"), url("/assets/fonts/din/DINCondensed-Bold.woff") format("woff"), url("/assets/fonts/din/DINCondensed-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal
-}
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
